@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotoğraf Çerçevesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fotoğrafınıza Çerçeve Ekleyin</h1>
+        
+        <div class="upload-section">
+            <input type="file" id="imageInput" accept="image/*">
+            <label for="imageInput" class="upload-button">Fotoğraf Seçin</label>
+        </div>
+
+        <div class="preview-section">
+            <canvas id="canvas" width="1080" height="1080"></canvas>
+            <button id="downloadBtn" disabled>İndir</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
